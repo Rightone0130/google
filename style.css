@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    display:
+
+}
+.header{
+    color: black;
+    position: relative;
+    transition: box-shadow 250ms;
+    height: 48px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+    min-width: auto;
+}
+.innerhead{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    float: right;
+    padding-left: 0;
+}
+
+.innerhead a{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.pallet{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    cursor: pointer;
+    fill: currentColor;
+    color: #5f6368;
+    opacity: 1;
+}
+.palletdiv{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    padding-left: 4px;
+}
+.content{
+    margin-top: 17%;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: block;
+    margin: auto 0; 
+    transform: translate(-50% -50%);
+}
+.gooogle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo{ 
+    
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.logo{
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    overflow-clip-margin: content box;
+
+}
+.input{
+    display: block;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.search{
+   
+    padding: 20px;
+
+}
+.searchinner{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+#searchinput{
+    margin-top: px;
+    font-family: arial,sans-serif;
+    height: 34px;
+    font-size: 16px;
+    flex: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+}
+
+input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+.feelluck{
+    display: block;
+    text-align: -webkit-center;
+    padding-top: 18px;
+}
+.searchbar{
+display: flex;
+z-index: 3;
+height: 44px;
+background: #fff;
+border: 1px solid #dfe1e5;
+box-shadow: none;
+border-radius: 24px;
+margin: 0 auto;
+max-width: 548px;
+width: 638px;
+padding: 5px 8px 0 14px;
+}
+.camsearch{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    cursor: pointer;
+    line-height: 44px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.micsearch{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    cursor: pointer;
+    line-height: 44px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.micsearchdiv{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.camsearchdiv{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.focussearchdiv{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+.focussearch{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    fill: currentColor;
+    color: #9aa0a6;
+    line-height: 20px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
