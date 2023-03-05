@@ -3,6 +3,16 @@
     padding: 0;
 
 }
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    min-width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 .header{
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -10,9 +20,17 @@
     flex-shrink: 0;
     box-sizing: border-box;
     height: 60px;
-    display: flex;
     align-items: center;
     padding: 6px;
+}
+.subhead{
+    color: black;
+    position: relative;
+    transition: box-shadow 250ms;
+    height: 48px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+    min-width: auto;
 }
 .innerhead{
     color: black;
@@ -30,7 +48,43 @@
     flex: 0 0 auto;
     justify-content: flex-end;
     float: right;
-    padding-left: 32px;
+    padding-left: 0;
+}
+.gmim{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+}
+.innergmim{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+.gm{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 15px;
+}
+.im{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 15px;
 }
 
 .innerhead a{
@@ -43,6 +97,14 @@
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
+}
+.modapal{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline;
 }
 .mainpalletdiv{
     color: black;
@@ -73,9 +135,82 @@
     line-height: normal;
     position: relative;
 }
-
+.palletdiv a{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signin{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    flex: 0 1 auto;
+}
+.signinner{
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    position: relative;
+    flex: 0 1 auto;
+}
+.signinner a{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    flex: 0 1 auto;
+    padding: 4px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signinner img{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    color: #000;
+    cursor: pointer;
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
 .content{
-    margin-top:17%;
+    margin-top:8%;
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #202124;
@@ -146,7 +281,7 @@
     outline: none;
     display: flex;
     -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
+    margin-top: 37px;
 }
 
 input{
@@ -172,6 +307,13 @@ input{
     text-align: -webkit-center;
     padding-top: 18px;
 }
+.feelluck input{
+    transition: all 0.3s ease;
+}
+.feelluck input:hover{
+    border-color: #8a795d;
+    box-shadow: 0 0 5px #8a795d96;
+}
 .searchbar{
 display: flex;
 z-index: 3;
@@ -184,6 +326,11 @@ margin: 0 auto;
 max-width: 548px;
 width: 638px;
 padding: 5px 8px 0 14px;
+transition: all 0.3s ease;
+}
+.searchbar:hover{
+    border-color: #8a795d;
+    box-shadow: 0 0 5px #8a795d96;
 }
 .camsearch{
     font-size: 14px;
@@ -288,4 +435,77 @@ padding: 5px 8px 0 14px;
     color: #4d5156;
     display: inline-block;
     line-height: 28px;
+}
+.naija{
+    font-family: arial,sans-serif;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.insidefooter{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.insidefooter a{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
+
+.carbon{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    order: 0;
+    width: 100%;
+    justify-content: center;
+}
+.carbon img{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    white-space: nowrap;
+    color: #70757a;
+    height: 14px;
+    padding-top: 15px;
+    margin-right: 6px;
+}
+.footer{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+}
+.ffc{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+.fsc{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
 }
